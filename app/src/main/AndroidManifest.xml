@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ellison.runningpomelo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_pomelo_final"
+
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_pomelo_final_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RunningPomelo">
+        <activity
+            android:name="com.ellison.runningpomelo.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/JetpackSplashTheme">
+            <!-- android:theme="@style/Theme.RunningPomelo.NoActionBar" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
